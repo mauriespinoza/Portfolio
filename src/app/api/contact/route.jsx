@@ -16,6 +16,7 @@ export async function POST(request) {
     const transporter = nodemailer.createTransport ({
          host: 'smtp.gmail.com',
          port: 465,
+         secure:true,
         //service:"gmail",
         // tls: {
         //     ciphers: "SSLv3",
@@ -25,7 +26,7 @@ export async function POST(request) {
             user: process.env.GMAIL_EMAIL,  
             pass: process.env.GMAIL_PASSWORD   
         },
-        secure:true
+        
     })
 
     try {
@@ -33,7 +34,7 @@ export async function POST(request) {
             from: "espinoza.p.mauricio@gmail.com",
             to: "espinoza.p.mauricio@gmail.com",
             subject: `Contacto: ${email}`,
-            html: `
+            text: `
             <p>Nombre: ${name} </p>
             <p>Email: ${email} </p>
             <p>Mensaje: ${message} </p>
