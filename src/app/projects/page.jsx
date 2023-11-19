@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import proj1 from "../../../public/images/projects/Candelabralogo.jpg";
+import proj1 from "../../../public/images/projects/candelabra.jpg";
 import proj2 from "../../../public/images/projects/masterraul.png";
 import proj3 from "../../../public/images/projects/fashion-studio-website.jpg";
 import proj4 from "../../../public/images/projects/portfolio-cover-image.jpg";
