@@ -1,5 +1,6 @@
 "use client";
 import {  useState } from "react";
+import SwalAlert from "sweetalert2";
 
 const Contact = () => {
   const initialState = {
@@ -20,13 +21,6 @@ const Contact = () => {
     console.log("form", form);
     const endpoint = "https://formspree.io/f/xdorvlye"; 
     try {
-    //   const response = await fetch("/api/contact", {
-    //     method: "POST",
-    //     headers: {
-    //       "Content-Type": "application/json",
-    //     },
-    //     body: JSON.stringify(form),
-    //   });
     const options = {
         method: "POST",
         headers: {
@@ -37,18 +31,28 @@ const Contact = () => {
   
       const response = await fetch(endpoint, options);
       if (response.status === 200) {
-        // Envío de correo electrónico exitoso
         setForm(initialState);
-
-        console.log("Correo electrónico enviado con éxito");
+        SwalAlert.fire({
+            icon: 'success',
+            title: 'Correo enviado correctamente',
+            showConfirmButton: false,
+            timer: 3000
+          })
       } else {
-        // Maneja errores
-        console.error("Error al enviar el correo electrónico");
+
+        SwalAlert.fire({
+            icon: 'danger',
+            title: 'Hemos tenido un problema al enviar el correo',
+            showConfirmButton: false,
+            timer: 3000
+          })
       }
     } catch (error) {
       console.error(error);
     }
   };
+
+ 
 
   return (
     <>
@@ -58,8 +62,8 @@ const Contact = () => {
             Contacto
           </h2>
           <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-            Envienos cualquier sugerencia o si necesita de algun Desarrollo de
-            Software a la medida
+            Envíenos cualquier sugerencia o si necesita Desarrollo de
+            Software a la medida.
           </p>
           <form onSubmit={handleSubmit} className="space-y-8">
             <div>

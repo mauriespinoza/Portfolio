@@ -29,7 +29,7 @@ const About =() => {
  <section>
             <div className="min-h-screen flex flex-col md:flex-row pt-20 pb-10 px-10 md:px-20 pt-4 bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]">
                 <div className="w-full pr-5 md:w-1/2 items-center" >
-                    <Image src="/images/yoda.webp" alt="Historia 1" width={640} height={570}/>
+                    <Image src="/images/profile/profile.jpeg" alt="imagen Mauricio Espinoza" width={640} height={570}/>
                     <br/>
                 </div>
                 <div className="w-full md:w-1/2 text-lg md:pr-10  pb-10">
@@ -40,11 +40,11 @@ const About =() => {
                     <br/>
                     <br/>
                     Formación:<br/>
-                    - Ingeniero en Computación e informática (2007-2009)<br/>
-                    - Analista de Sistemas (2004-2006)<br/>
-                    - Certificacion ASP.Net, C# Framework 4.0 (2012)<br/>
-                    - Certificacion Angular 8, Typescript <br/>
-                    - Full Stack Developer (2023)
+                    <strong> - Ingeniero en Computación e informática (2007-2009)</strong><br/>
+                    <strong> - Analista de Sistemas (2004-2006)</strong><br/>
+                    <strong> - Certificacion ASP.Net, C# Framework 4.0 (2012)</strong><br/>
+                    <strong> - Certificacion Angular 8, Typescript</strong> <br/>
+                    <strong> - Full Stack Developer (2023)</strong>
                     <br/>
                     <br/>
                     Como desarrollador, siempre me ha apasionado crear soluciones elegantes y eficaces a problemas complejos. Tengo una base sólida en el desarrollo de software, con enfoque en tecnologías web como HTML, CSS y JavaScript. Disfruto trabajando tanto en el front-end como en el back-end de las aplicaciones y siempre estoy buscando formas de optimizar el rendimiento, mejorar la experiencia del usuario y garantizar el más alto nivel de calidad del código.
