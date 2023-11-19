@@ -27,7 +27,7 @@ const About =() => {
     </div>
 </div> */}
  <section>
-            <div className="min-h-screen flex flex-col md:flex-row pt-10 pb-10 px-10 md:px-20 pt-4 bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]">
+            <div className="min-h-screen flex flex-col md:flex-row pt-20 pb-10 px-10 md:px-20 pt-4 bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]">
                 <div className="w-full pr-5 md:w-1/2 items-center" >
                     <Image src="/images/yoda.webp" alt="Historia 1" width={640} height={570}/>
                     <br/>
