@@ -15,7 +15,7 @@ const NavbarResp = () => {
     <Link className="text-blue-950 text-lg my-2" href="/experience">
       Experiencia
     </Link>,
-    <Link className="text-blue-950 text-lg my-2" href="proyectos">
+    <Link className="text-blue-950 text-lg my-2" href="/projects">
       Proyectos
     </Link>
       ];
@@ -49,7 +49,7 @@ const NavbarResp = () => {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/projects">
             Proyectos
           </Link>
         </NavbarItem>

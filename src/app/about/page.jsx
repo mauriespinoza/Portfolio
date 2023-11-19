@@ -27,13 +27,13 @@ const About =() => {
     </div>
 </div> */}
  <section>
-            <div className="min-h-screen flex flex-col md:flex-row px-10 md:px-20 pt-4 bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]">
+            <div className="min-h-screen flex flex-col md:flex-row pt-10 pb-10 px-10 md:px-20 pt-4 bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]">
                 <div className="w-full pr-5 md:w-1/2 items-center" >
                     <Image src="/images/yoda.webp" alt="Historia 1" width={640} height={570}/>
                     <br/>
                 </div>
                 <div className="w-full md:w-1/2 text-lg md:pr-10  pb-10">
-                    <h2 className="text-xl"><strong>Mauricio Espinoza</strong></h2>
+                    <h2 className="font-bold text-6xl mb-28 w-full text-left xl:text-6xl md:text-4xl xs:text-4xl md:mb-14"><strong>Mauricio Espinoza</strong></h2>
                     <br/>
                     <br/>
                     Profesional con más de 15 años de experiencia en el area de Desarrollo de Software.
