@@ -6,17 +6,20 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button,NavbarMenuT
 const NavbarResp = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const menuItems = [
-      <Link className="text-blue-950 text-lg my-2" href="/">
+      <Link className="text-black text-lg my-2" href="/">
       Home
     </Link>,
-      <Link className="text-blue-950 text-lg my-2" href="/about">
+      <Link className="text-black text-lg my-2" href="/about">
       Acerca de MI
     </Link>,
-    <Link className="text-blue-950 text-lg my-2" href="/experience">
+    <Link className="text-black text-lg my-2" href="/experience">
       Experiencia
     </Link>,
-    <Link className="text-blue-950 text-lg my-2" href="/projects">
+    <Link className="text-black text-lg my-2" href="/projects">
       Proyectos
+    </Link>,
+    <Link className="text-black text-lg my-2" href="/contact">
+      Contacto
     </Link>
       ];
   return (
@@ -28,29 +31,34 @@ const NavbarResp = () => {
         />
         <NavbarBrand>
          
-          <p className="font-bold text-inherit">Mauricio Espinoza</p>
+          <p className="font-bold text-lg text-inherit ">MAURICIO ESPINOZA</p>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
       <NavbarItem>
-          <Link color="foreground" href="/" >
+          <Link className="font-bold" color="foreground" href="/" >
             Home
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/about" >
+          <Link className="font-bold" color="foreground" href="/about" >
             Acerca de Mi
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href="/experience" aria-current="page">
+          <Link className="font-bold" href="/experience" aria-current="page">
           Experiencia
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/projects">
+          <Link className="font-bold" color="foreground" href="/projects">
             Proyectos
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link className="font-bold" color="foreground" href="/contact">
+            Contacto
           </Link>
         </NavbarItem>
       </NavbarContent>

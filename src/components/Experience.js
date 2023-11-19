@@ -71,40 +71,38 @@ const Experience = () => {
               companyLink="https://dieboldnixdorf.com"
               time="2012-Presente"
               address="Santiago, Chile"
-              work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+              work="Trabajó en un equipo responsable de desarrollo e implementacion de soluciones para el area Banking.
+              Aptitudes: Visual Basic · Servicios web de RESTful · Desarrollo de API · Bases de datos · Desarrollo Full Stack · .NET Framework · Análisis de sistemas · C# · AngularJS · TypeScript"
             />
 
             <Details
               position="Analista de Sistemas"
               company="Univiveros"
-              companyLink="https://facebook.com"
+              companyLink="https://univiveros.cl"
               time="2011 2012"
               address="Paine, Chile."
-              work="Worked on a team responsible for developing a new mobile app
-              feature that allowed users to create and share short-form video
-              content, including designing and implementing a new user interface
-              and developing the backend infrastructure to support the feature."
+              work="Encargado del desarrollo de aplicaciones y soporte computacional.
+              Aptitudes: Visual Basic · Servicios web de RESTful · Desarrollo de API · Bases de datos · Desarrollo Full Stack · .NET Framework · Análisis de sistemas · C# · AngularJS · TypeScript"
             />
 
             <Details
-              position="Directiva Informatica"
-              company="Amazon"
-              companyLink="https://amazon.com"
+              position="Analista de Sistemas"
+              company="Directiva Informatica"
+              companyLink="https://www.directiva.cl/"
               time="2009-2011"
               address="Santiago, Chile."
-              work="Worked on a team responsible for developing Amazon's mobile app, including implementing new features such as product recommendations and user reviews, and optimizing the app's performance and reliability."
+              work="Trabajó en un equipo responsable de desarrollo e implementacion de soluciones para el area Banking y Seguridad Electronica.
+              Aptitudes: Visual Basic · Servicios web de RESTful · Desarrollo de API · Bases de datos · Desarrollo Full Stack · .NET Framework · Análisis de sistemas · C# · AngularJS · TypeScript"
             />
 
             <Details
               position="Software Developer"
               company="Ilia"
-              companyLink="https://microsoft.com"
+              companyLink="https://ilia.cl/"
               time="2008-2009"
               address="Santiago, Chile."
-              work="Worked on a team responsible for developing new features for
-              Microsoft's Windows operating system, including implementing a new
-              user interface for a system settings panel and optimizing the
-              performance of a core system component."
+              work="Trabajó en un equipo responsable de desarrollo e implementacion de soluciones para el area Banking y Seguridad Electronica.
+              Aptitudes: Visual Basic · Servicios web de RESTful · Desarrollo de API · Bases de datos · Desarrollo Full Stack · .NET Framework · Análisis de sistemas · C# · AngularJS · TypeScript"
             />
 
             <Details
@@ -113,9 +111,8 @@ const Experience = () => {
               companyLink="https://mit.edu"
               time="2006-Present"
               address="Massachusetts Ave, Cambridge, MA."
-              work="Assisted in teaching a course on computer programming, held office
-              hours to help students with assignments, and graded exams and
-              assignments."
+              work="Este es mi emprendimiento personal de desarrollo e implementacion de soluciones para el area Banking y Seguridad Electronica.
+              Aptitudes: Visual Basic · Servicios web de RESTful · Desarrollo de API · Bases de datos · Desarrollo Full Stack · .NET Framework · Análisis de sistemas · C# · AngularJS · TypeScript"
             />
           </ul>
         </div>
